@@ -70,7 +70,7 @@ const CreatePoint = () => {
           </legend>
 
           <ul className="items-grid">
-            <li>
+            <li className="selected">
               <img src={oleo} alt="oleo" />
               <span>Óleo de Cozinha</span>
             </li>
@@ -96,6 +96,7 @@ const CreatePoint = () => {
             </li>
           </ul>
         </fieldset>
+        <button type="submit">Cadastrar Ponto de Coleta</button>
       </form>
     </div>
   );
