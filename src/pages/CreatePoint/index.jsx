@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FiArrowLeft } from "react-icons/fi";
 import "./style.css";
+
 import logo from "../../assets/logo.svg";
 import oleo from "../../assets/oleo.svg";
 import baterias from "../../assets/baterias.svg";
@@ -48,6 +49,7 @@ const CreatePoint = () => {
             <h2>Endereço</h2>
             <span>Selecione o endereço no Mapa</span>
           </legend>
+
           <div className="field-group">
             <div className="field">
               <label htmlFor="uf">Estado (UF)</label>
