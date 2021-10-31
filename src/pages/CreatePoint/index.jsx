@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FiArrowLeft } from "react-icons/fi";
 import "./style.css";
-
+import { MapContainer, Marker, TileLayer, Popup } from "react-leaflet";
 import logo from "../../assets/logo.svg";
 import oleo from "../../assets/oleo.svg";
 import baterias from "../../assets/baterias.svg";
@@ -49,7 +49,21 @@ const CreatePoint = () => {
             <h2>Endereço</h2>
             <span>Selecione o endereço no Mapa</span>
           </legend>
-
+          <MapContainer
+            center={[-29.7745727, -57.0869789]}
+            zoom={13}
+            scrollWheelZoom={false}
+          >
+            <TileLayer
+              attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            />
+            <Marker position={[51.505, -0.09]}>
+              <Popup>
+                A pretty CSS3 popup. <br /> Easily customizable.
+              </Popup>
+            </Marker>
+          </MapContainer>
           <div className="field-group">
             <div className="field">
               <label htmlFor="uf">Estado (UF)</label>
