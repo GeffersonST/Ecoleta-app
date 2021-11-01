@@ -94,7 +94,7 @@ const CreatePoint = () => {
               <img src={baterias} alt="baterias" />
               <span>Baterias</span>
             </li>
-            <li>
+            <li className="selected">
               <img src={lampadas} alt="lampadas" />
               <span>Lâmpadas</span>
             </li>
@@ -112,6 +112,7 @@ const CreatePoint = () => {
             </li>
           </ul>
         </fieldset>
+
         <button type="submit">Cadastrar Ponto de Coleta</button>
       </form>
     </div>
