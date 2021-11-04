@@ -50,7 +50,7 @@ const CreatePoint = () => {
             <span>Selecione o endereço no Mapa</span>
           </legend>
           <MapContainer
-            center={[-29.7745727, -57.0869789]}
+            center={[41.1593138, -8.6298419]}
             zoom={13}
             scrollWheelZoom={false}
           >
@@ -58,7 +58,7 @@ const CreatePoint = () => {
               attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
               url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             />
-            <Marker position={[-29.7745727, -57.0869789]}>
+            <Marker position={[41.1593138, -8.6298419]}>
               <Popup>
                 A pretty CSS3 popup. <br /> Easily customizable.
               </Popup>
