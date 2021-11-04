@@ -1,9 +1,10 @@
 <h1 align="center">
-  📰<br>Ecoleta
+  ♻️<br>Ecoleta
 </h1>
 
 <h4 align="center">
   Ecoleta é um projeto Open Source desenvolvido na Next Level Week (1.0) da Rocketseat utilizando TypeScript, Node, React e React Native.
+A ideia do projeto é desenvolver um App relacionado com a sustentabilidade. Nesse sentido, o Ecoleta proporciona um melhor gerenciamento para cadastrar e encontrar pontos de coleta de resíduos. Resíduos esses que não podem ser colocados no lixo comum. 
 </h4>
 <p align="center">
   <img src="https://i.ibb.co/02mCYSm/ecoleta.png" alt="ecoleta"  border="0">
@@ -47,3 +48,8 @@ Para o desenvolvimento deste site utilizei as seguintes tecnologias:
     </td>
   </tr>
 </table>
+<a href="https://www.youtube.com/c/RocketSeat">
+  
+Contribution: :rocket: Rocketseat
+  </a>
+  
